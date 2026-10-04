@@ -35,3 +35,10 @@
 .da-liano::before { content: "\e001"; }
 .da-othello::before { content: "\e002"; }
 .da-martian::before { content: "\e003"; }
+
+.da::before,
+.icon.da::before {
+  font-family: "da-icons" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
